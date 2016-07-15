@@ -1,4 +1,4 @@
-﻿package com.example.pedometer.igo.Utils;
+package com.example.pedometer.igo.Utils;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -21,6 +21,7 @@ import java.util.Date;
 import java.util.Locale;
 
 public class Utility {
+    private static final String TAG = "Pedometer";
     public synchronized static boolean handleProvincesResponse(WeatherDB weatherDB,String response) {
         if(!TextUtils.isEmpty(response)) {
             String[] allProvinces = response.split(",");
