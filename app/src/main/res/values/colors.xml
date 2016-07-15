@@ -1,0 +1,6 @@
+<resources>
+    <color name="screen_background">#333</color>
+    <color name="display_background">#000</color>
+    <color name="blue_500">#2196f3</color>
+    <color name="mainColor">@color/blue_500</color>
+</resources>
