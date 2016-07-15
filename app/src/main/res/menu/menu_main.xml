@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_pause" android:title="@string/action_pause" android:icon="@android:drawable/ic_media_pause"></item>
+    <item android:id="@+id/action_reset" android:title="@string/action_reset" app:showAsAction="never" android:icon="@android:drawable/ic_menu_close_clear_cancel"></item>
+    <item android:id="@+id/action_settings" android:title="Settings" app:showAsAction="never" android:icon="@android:drawable/ic_menu_preferences"></item>
+    <item android:id="@+id/action_quit" android:title="Quit" app:showAsAction="never" android:icon="@android:drawable/ic_lock_power_off" />
+</menu>
